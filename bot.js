@@ -4,14 +4,8 @@ var client = new Discord.Client();
 
 bot.on('ready', () => {
     bot.user.setStatus('dnd')
-    bot.user.setActivity({
-        game: {
-            name: '〽️ **Bot do Testów** 〽️',
-            type: "WATCHING",
-            url: " "
-            
-        }
-    });
+    bot.user.setActivity({type: "LISTENING"});
+    
 });
 
 bot.on('message', message => {

@@ -6,8 +6,6 @@ bot.on('ready', () => {
     bot.user.setStatus('dnd')
     bot.user.setGame('〽️ **Bot do Testów** 〽️');
 
-});
-
 bot.on('message', message => {
 if(message.content.toLowerCase() === 'asddsaaw23')
    message.channel.send('Przyjdę do cb zaraz i zgwałce ci dom ❤️');

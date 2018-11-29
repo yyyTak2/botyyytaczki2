@@ -4,7 +4,7 @@ var client = new Discord.Client();
 
 bot.on('ready', () => {
     bot.user.setStatus('dnd')
-    bot.user.setActivity({type: "LISTENING"});
+    bot.user.setPresence({type: "LISTENING"});
     
 });
 

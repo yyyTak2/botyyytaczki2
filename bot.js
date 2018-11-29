@@ -6,10 +6,8 @@ bot.on('ready', () => {
     bot.user.setStatus('dnd')
     bot.user.setPresence({
         game: {
-            name: '🔥Mokre Chomiczki🔥 👉👌',
-            type: "PLAYING",
-            url: "https://www.twitch.tv/yyytak32"
-            
+            name: 'Huehuehue',
+            type: 0
         }
     });
 });

@@ -4,6 +4,7 @@ var client = new Discord.Client();
 
 bot.on('ready', () => {
     bot.user.setStatus('dnd')
+    bot.user.setGame('Huehuehue');
     bot.user.setPresence({
         game: {
             name: 'Huehuehue',

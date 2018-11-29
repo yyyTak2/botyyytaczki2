@@ -4,10 +4,10 @@ var client = new Discord.Client();
 
 bot.on('ready', () => {
     bot.user.setStatus('dnd')
-    bot.user.setGame('Huehuehue');
+    bot.user.setGame('〽️ Bot do /n Testów 〽️');
     bot.user.setPresence({
         game: {
-            name: 'Huehuehue',
+            name: '〽️ Bot do /n Testów 〽️',
             type: 0
         }
     });

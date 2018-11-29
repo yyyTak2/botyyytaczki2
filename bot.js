@@ -4,7 +4,7 @@ var client = new Discord.Client();
 
 bot.on('ready', () => {
     bot.user.setStatus('dnd')
-    bot.user.setPresence({
+    bot.user.setActivity({
         game: {
             name: '〽️ **Bot do Testów** 〽️',
             type: "WATCHING",

@@ -8,6 +8,7 @@ bot.on('ready', () => {
         game: {
             name: '〽️ Bot do Testów 〽️',
             type: "LISTENING",
+            url: ""
             
         }
     });

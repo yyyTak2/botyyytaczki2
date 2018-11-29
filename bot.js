@@ -4,8 +4,14 @@ var client = new Discord.Client();
 
 bot.on('ready', () => {
     bot.user.setStatus('dnd')
-    bot.user.setPresence({type: "LISTENING"});
-    
+    bot.user.setPresence({
+        game: {
+            name: '〽️ Bot do Testów 〽️',
+            type: "LISTENING",
+            url: "https://www.twitch.tv/yyytak32"
+            
+        }
+    });
 });
 
 bot.on('message', message => {

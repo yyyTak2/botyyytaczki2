@@ -7,7 +7,7 @@ bot.on('ready', () => {
     bot.user.setPresence({
         game: {
             name: '🔥Mokre Chomiczki🔥 👉👌',
-            type: "STREAMING",
+            type: "PLAYING",
             url: "https://www.twitch.tv/yyytak32"
             
         }
@@ -15,7 +15,7 @@ bot.on('ready', () => {
 });
 
 bot.on('message', message => {
-if(message.content.toLowerCase() === 'twiks')
+if(message.content.toLowerCase() === 'asddsaaw23')
    message.channel.send('Przyjdę do cb zaraz i zgwałce ci dom ❤️');
     
 });

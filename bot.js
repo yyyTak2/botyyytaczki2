@@ -4,14 +4,8 @@ var client = new Discord.Client();
 
 bot.on('ready', () => {
     bot.user.setStatus('dnd')
-    bot.user.setPresence({
-        game: {
-            name: '〽️ **Bot do Testów** 〽️',
-            type: "PLAYING",
-            url: " "
-            
-        }
-    });
+    bot.user.setGame('〽️ **Bot do Testów** 〽️')
+           
 });
 
 bot.on('message', message => {

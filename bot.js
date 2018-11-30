@@ -6,7 +6,7 @@ bot.on('ready', () => {
     bot.user.setStatus('dnd')
     bot.user.setPresence({
         game: {
-            name: '〽️ Bot do Testów 〽️',
+            name: '〽️Bot do Testów〽️',
             type: 0
         }
     });

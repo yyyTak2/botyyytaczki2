@@ -6,7 +6,6 @@ bot.on('ready', () => {
     bot.user.setStatus('dnd')
     bot.user.setGame('〽️ Bot do Testów 〽️')
 
-         }
     });
 });
 

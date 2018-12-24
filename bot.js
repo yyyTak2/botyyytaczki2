@@ -12,4 +12,10 @@ bot.on('ready', () => {
     });
 });	
 
+bot.on('message', message => {
+if(message.content.toLowerCase() === '!prezent')
+   message.channel.send('**A łap 🎁**')
+
+});
+
 bot.login(process.env.B0T_T0KEN);

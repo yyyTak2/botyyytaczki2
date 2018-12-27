@@ -6,7 +6,7 @@ bot.on('ready', () => {
     bot.user.setStatus('dnd')
     bot.user.setPresence({
         game: {
-            name: 'Wesołych świąt! 🎄🎁',
+            name: 'Huehuehue',
             type: 0
         }
     });

@@ -6,14 +6,14 @@ bot.on('ready', () => {
     bot.user.setStatus('dnd')
     bot.user.setPresence({
         game: {
-            name: 'Szczęśliwego Nowego Roku! 🎆🥂',
+            name: 'Huehuehuehue',
             type: 0
         }
     });
 });	
 
 bot.on('message', message => {
-if(message.content.toLowerCase() === '!prezent')
+if(message.content.toLowerCase() === '!sdsadasdas')
    message.channel.send('**A łap 🎁**')
 
 });

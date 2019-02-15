@@ -6,15 +6,15 @@ bot.on('ready', () => {
     bot.user.setStatus('dnd')
     bot.user.setPresence({
         game: {
-            name: 'Huehuehuehue',
+            name: 'GRAJETETAJMY BOT',
             type: 0
         }
     });
 });	
 
 bot.on('message', message => {
-if(message.content.toLowerCase() === '!sdsadasdas')
-   message.channel.send('**A łap 🎁**')
+if(message.content.toLowerCase() === '!hubson')
+   message.channel.send('**Hubercik ma malego fifloka ❤️**')
 
 });
 

@@ -14,7 +14,7 @@ bot.on('ready', () => {
 
 bot.on('message', message => {
 if(message.content.toLowerCase() === '!hubson')
-   message.channel.send('**Hubercik ma malego fifloka ❤️**')
+   message.channel.send('**Hubercik ma maŁego fifloka ❤️**')
 
 });
 

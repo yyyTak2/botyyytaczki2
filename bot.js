@@ -18,8 +18,6 @@ if(message.content.toLowerCase() === '!hubson')
     
 });
 
-bot.login(process.env.B0T_T0KEN);
-
 // Load up the discord.js library
 const Discord = require("discord.js");
 

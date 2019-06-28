@@ -13,7 +13,7 @@ bot.on('ready', () => {
 });	
 
 bot.on('message', message => {
-if(message.content.toLowerCase() === '!hubson')
+if(message.content.toLowerCase() === '!dafdf')
    message.channel.send('**Hubercik ma małego fifloka ❤️**')
     
 });

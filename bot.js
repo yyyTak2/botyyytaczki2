@@ -6,7 +6,7 @@ bot.on('ready', () => {
     bot.user.setStatus('dnd')
     bot.user.setPresence({
         game: {
-            name: '  ❗ JEŻELI TEGO ❗',
+            name: '    ❗ JEŻELI TEGO ❗',
             type: 0
         }
     });
